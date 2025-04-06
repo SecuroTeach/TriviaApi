@@ -1,0 +1,7 @@
+@TriviaGame.Api_HostAddress = https://localhost:7288
+@SessionId = f7edd967-3d8f-4d70-b58b-fe74d71bff5f
+
+GET {{TriviaGame.Api_HostAddress}}/api/questions?sessionId={{SessionId}}
+Accept: application/json
+
+###
